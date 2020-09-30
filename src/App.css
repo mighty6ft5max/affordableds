@@ -1,31 +1,44 @@
-.App {
-  text-align: center;
+body {
+  color: rgba(221, 207, 185, 0.9);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.video_bg {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calendly-inline-widget iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "Copperplate Bold";
+  src: local("Copperplate Bold"),
+    url("./fonts/CopperplateBold.ttf") format("truetype");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "Copperplate Gothic Bold";
+  src: local("Copperplate Gothic Bold"),
+    url("./fonts/CopperplateGothicBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: local("Gotham Book"), url("./fonts/GothamBook.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: local("Gotham Light"), url("./fonts/GothamLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: local("Gotham Bold"), url("./fonts/GothamBold.ttf") format("truetype");
 }
 
 @keyframes App-logo-spin {
